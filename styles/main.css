@@ -59,4 +59,81 @@ html {
   font-size: 0.7rem;
   margin-top: 0.5rem;
   color: rgb(141, 141, 141);
+}
+
+.nav {
+  width: 100%;
+  background-color: #B4D4FF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 2px rgb(5, 29, 65);
+  position: sticky;
+  top: 0;
+}
+.nav__left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.nav__return-logo {
+  height: 1.4rem;
+}
+.nav__heading {
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: black;
+  padding: 0.5rem 0 0.5rem 0.5rem;
+}
+.nav__right {
+  display: flex;
+  align-items: center;
+}
+.nav__style-logo {
+  height: 1.4rem;
+}
+
+.main__box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.main__card-box {
+  width: 100%;
+  padding: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .main__card-box {
+    width: 33%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .main__card-box {
+    width: 33%;
+  }
+}
+.main__card {
+  padding: 1rem;
+  border: black solid 1px;
+  box-shadow: 0 0 5px black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main__title {
+  display: flex;
+  align-self: flex-start;
+}
+.main__text-container {
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.main__picture {
+  background-color: red;
+  width: 100%;
+  height: 15vh;
 }/*# sourceMappingURL=main.css.map */
