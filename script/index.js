@@ -10,14 +10,14 @@ function inputCompare(event){
     event.preventDefault();
     console.log("testing"); 
     console.log(inputbox.value);
-    if(inputbox.value === "one") {
-        textReplace.innerText = "yes";
+    if(inputbox.value === "Ayla Cilliers") {
+        textReplace.innerText = "YIPEEEEEEEEE";
 
         setTimeout(() => {
             window.location.href = "./pages/gallery.html";
         }, 2000);
     } else {
-        textReplace.innerText = "no";
+        textReplace.innerText = "no dates for you try again";
     }
 
     // textReplace.innerText = inputbox.value === "one" ? "yes" : "no";
